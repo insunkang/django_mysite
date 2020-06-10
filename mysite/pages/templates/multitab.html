@@ -1,0 +1,12 @@
+<h1> {{answer}}</h1>
+<h1>DTL(Django Temlpate language</h1>
+<!-- 두개가 다르다 -->
+{# 이게 DTL 주석 #}
+
+{% comment %}
+여기는 전부 출력이 안됨
+{% endcomment %}
+
+{%for num in answer%}
+<p>{{num}}</p>
+{% endfor %}
